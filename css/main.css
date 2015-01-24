@@ -4,4 +4,28 @@ html {
 
 h1 {
   font-family: 'Bevan', cursive;
+  font-weight: normal; /* normal, bold */
+  font-size: 2rem;
+  font-style: normal; /* normal, italic */
+  text-decoration: none; /* underline, line-through */
+  line-height: 1;
+}
+
+ol{
+  font-family: 'Open Sans', sans-serif;
+  list-style-type: none; /* none, lower-roman, lower-alpha, decimal, circle, disc */
+  padding: 0;
+  line-height: 1.2
+}
+
+li {
+  font-weight: normal;
+}
+
+a {
+  color: maroon;
+}
+
+a:hover {
+  color: red;
 }
