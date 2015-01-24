@@ -52,6 +52,7 @@ p {
 
 b {
   color: #777;
+  font-weight: normal;
 }
 
 blockquote{
@@ -76,23 +77,10 @@ footer {
 }
 
 em{
-  font-family: 'Open Sans', sans-serif;
   font-style: italic;
-  font-weight: normal;
-  font-size: 1rem;
-  line-height: 1.5
 }
 
 strong{
   font-style: italic;
   font-weight: normal;
-}
-
-ol{
-  font-family: 'Open Sans', sans-serif;
-  font-weight: normal;
-  font-size: 1rem;
-  list-style-type: lower-roman;
-  padding: 0;
-  line-height: 1.5
 }
