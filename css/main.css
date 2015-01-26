@@ -21,10 +21,6 @@ ol{
   line-height: 1.5
 }
 
-li {
-  font-weight: normal;
-}
-
 a {
   color: maroon;
 }
@@ -33,10 +29,20 @@ a:hover {
   color: red;
 }
 
-h2, h3 {
+h2 {
   font-family: 'Bevan', cursive;
   font-weight: normal;
   font-size: 1.5rem;
+  font-style: normal;
+  text-decoration: none;
+  line-height: 1.5;
+  color: #555
+}
+
+h3 {
+  font-family: 'Bevan', cursive;
+  font-weight: normal;
+  font-size: 1.2rem;
   font-style: normal;
   text-decoration: none;
   line-height: 1.5;
@@ -55,7 +61,7 @@ b {
   font-weight: normal;
 }
 
-blockquote{
+blockquote {
   font-family: georgia, cursive;
   font-style: italic;
   font-size: 1.25rem;
@@ -76,11 +82,28 @@ footer {
   text-align: right;
 }
 
-em{
+.small-text {
+  font-size: .8rem
+}
+
+em {
   font-style: italic;
 }
 
-strong{
+strong {
   font-style: italic;
   font-weight: normal;
+}
+
+.terrestrial-planets {
+  list-style-type: lower-roman;
+  padding-left: 50px;
+  line-height: 1.5
+}
+
+figcaption {
+  font-family: 'Open Sans', sans-serif;
+  font-size: .7rem;
+  font-style: italic;
+  line-height: 2
 }
