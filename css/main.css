@@ -74,11 +74,12 @@ blockquote {
   font-size: 2rem;
 }
 
-footer {
+.cite {
   font-family: georgia, cursive;
   font-style: italic;
   color: #79756f;
   font-size: .75rem;
+  text-align: right;
 }
 
 .small-text {
